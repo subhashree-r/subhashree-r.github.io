@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhashree Radhakrishnan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header / About -->
+        <div class="profile-section">
+            <div class="profile-image">
+                <img src="images/profile.jpg" alt="Subhashree Radhakrishnan">
+            </div>
+            <div class="profile-info">
+                <h1>Subhashree Radhakrishnan</h1>
+                <p class="title">Tech Lead &amp; Applied AI Researcher</p>
+                <p class="affiliation">NVIDIA</p>
+                <div class="social-links">
+                    <a href="mailto:r.subhashree94@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://scholar.google.com/citations?user=bdlaQjkAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                    <a href="https://www.linkedin.com/in/subhashree-radhakrishnan-b0b0048b/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Bio -->
+        <div class="section">
+            <p>I am a Tech Lead and Applied AI Researcher at <strong>NVIDIA</strong>, building multi-modal AI systems and agents that bridge perception, reasoning, and real-world deployment.</p>
+
+            <p>My work focuses on designing and scaling vision-language and video-language models, with an emphasis on translating research into production systems. I have led several key initiatives at NVIDIA, including <strong>NVCLIP</strong> (a multi-modal foundation model for vision-language understanding), <strong>LITA</strong> (Language-Instructed Temporal Localization Assistant for video reasoning), and <strong>3D-Layout-R1</strong> (structured spatial reasoning in 3D environments).</p>
+
+            <p>Currently, I am leading efforts on building <strong>reasoning agents in interactive gaming environments</strong>&mdash;developing systems that perceive, plan, and act through foundation models, structured representations, and tool use.</p>
+
+            <p>My broader research interests lie in <strong>multi-modal reasoning</strong>, <strong>scene and spatial understanding</strong>, and <strong>agentic AI systems</strong> that integrate perception with decision-making. A central theme in my work is bridging 0&rarr;1 research ideas into scalable, real-world deployments.</p>
+
+            <p>I completed my Master's at <strong>Virginia Tech</strong>, where I worked on human-object interaction in videos under the guidance of <a href="https://jbhuang0604.github.io/">Prof. Jia-Bin Huang</a>.</p>
+        </div>
+
+        <!-- Publications & Patents -->
+        <div class="section">
+            <div class="tab-container">
+                <button class="tab active" onclick="switchTab('publications')">Publications</button>
+                <button class="tab" onclick="switchTab('patents')">Patents</button>
+            </div>
+
+            <!-- Publications Tab -->
+            <div id="publications" class="tab-content active">
+                <div class="pub-list">
+
+                    <!-- 2026 -->
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/3d-rgpt.png" alt="3D-Aware Region-Prompted VLM">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">3D Aware Region Prompted Vision Language Model</p>
+                            <p class="pub-authors">An-Chieh Cheng, Yang Fu, Yukang Chen, Zhijian Liu, Xiaolong Li, <strong>Subhashree Radhakrishnan</strong>, Song Han, Yao Lu, Jan Kautz, Pavlo Molchanov, Hongxu Yin, Xiaolong Wang, Sifei Liu</p>
+                            <p class="pub-venue"><strong>ICLR 2026</strong></p>
+                            <p class="pub-links">
+                                <a href="https://arxiv.org/abs/2509.13317">[paper]</a>
+                                <a href="https://github.com/AnjieCheng/SR-3D">[code]</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/4d-rgpt.png" alt="4D-RGPT">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">4D-RGPT: Toward Region-level 4D Understanding via Perceptual Distillation</p>
+                            <p class="pub-authors">Chiao-An Yang, Ryo Hachiuma, Sifei Liu, <strong>Subhashree Radhakrishnan</strong>, Raymond A Yeh, Yu-Chiang Frank Wang, Min-Hung Chen</p>
+                            <p class="pub-venue"><strong>CVPR 2026</strong></p>
+                            <p class="pub-links">
+                                <a href="https://arxiv.org/abs/2512.17012">[paper]</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 2025 -->
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/eagle.png" alt="Eagle">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">Eagle: Exploring the Design Space for Multimodal LLMs with Mixture of Encoders</p>
+                            <p class="pub-authors">Min Shi, Fuxiao Liu, Shihao Wang, Shijia Liao, <strong>Subhashree Radhakrishnan</strong>, De-An Huang, Hongxu Yin, Karan Sapra, Yaser Yacoob, Humphrey Shi, Bryan Catanzaro, Andrew Tao, Jan Kautz, Zhiding Yu, Guilin Liu</p>
+                            <p class="pub-venue"><strong>ICLR 2025</strong> <span class="pub-badge spotlight">Spotlight</span></p>
+                            <p class="pub-links">
+                                <a href="https://arxiv.org/abs/2408.15998">[paper]</a>
+                                <a href="https://github.com/NVlabs/EAGLE">[code]</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/eagle2.png" alt="Eagle 2">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">Eagle 2: Building Post-Training Data Strategies from Scratch for Frontier Vision-Language Models</p>
+                            <p class="pub-authors">Zhiqi Li, Guo Chen, Shilong Liu, Shihao Wang, Vibashan VS, Yishen Ji, Shiyi Lan, Hao Zhang, Yilin Zhao, <strong>Subhashree Radhakrishnan</strong>, Nadine Chang, Karan Sapra, et al.</p>
+                            <p class="pub-venue"><strong>arXiv 2025</strong></p>
+                            <p class="pub-links">
+                                <a href="https://arxiv.org/abs/2501.14818">[paper]</a>
+                                <a href="https://github.com/NVlabs/EAGLE">[code]</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/omni-rgpt.png" alt="Omni-RGPT">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">Omni-RGPT: Unifying Image and Video Region-level Understanding via Token Marks</p>
+                            <p class="pub-authors">Miran Heo, Min-Hung Chen, De-An Huang, Sifei Liu, <strong>Subhashree Radhakrishnan</strong>, Seon Joo Kim, Yu-Chiang Frank Wang, Ryo Hachiuma</p>
+                            <p class="pub-venue"><strong>CVPR 2025</strong></p>
+                            <p class="pub-links">
+                                <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Heo_Omni-RGPT_Unifying_Image_and_Video_Region-level_Understanding_via_Token_Marks_CVPR_2025_paper.html">[paper]</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/frag.png" alt="FRAG">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">FRAG: Frame Selection Augmented Generation for Long Video and Long Document Understanding</p>
+                            <p class="pub-authors">De-An Huang, <strong>Subhashree Radhakrishnan</strong>, Zhiding Yu, Jan Kautz</p>
+                            <p class="pub-venue"><strong>arXiv 2025</strong></p>
+                            <p class="pub-links">
+                                <a href="https://arxiv.org/abs/2504.17447">[paper]</a>
+                                <a href="https://github.com/NVlabs/FRAG">[code]</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/nemotron.png" alt="Nemotron Nano">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">NVIDIA Nemotron Nano V2 VL</p>
+                            <p class="pub-authors">Amala Sanjay Deshmukh, Kateryna Chumachenko, ..., <strong>Subhashree Radhakrishnan</strong>, et al.</p>
+                            <p class="pub-venue"><strong>arXiv 2025</strong></p>
+                            <p class="pub-links">
+                                <a href="https://arxiv.org/abs/2511.03929">[paper]</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/aicity.png" alt="AI City Challenge">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">The 9th AI City Challenge</p>
+                            <p class="pub-venue"><strong>ICCV 2025 Workshop</strong></p>
+                            <p class="pub-links"></p>
+                        </div>
+                    </div>
+
+                    <!-- 2024 -->
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/lita.png" alt="LITA">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">LITA: Language Instructed Temporal-Localization Assistant</p>
+                            <p class="pub-authors">De-An Huang, Shijia Liao, <strong>Subhashree Radhakrishnan</strong>, Hongxu Yin, Pavlo Molchanov, Zhiding Yu, Jan Kautz</p>
+                            <p class="pub-venue"><strong>ECCV 2024</strong></p>
+                            <p class="pub-links">
+                                <a href="https://link.springer.com/chapter/10.1007/978-3-031-73039-9_12">[paper]</a>
+                                <a href="https://github.com/NVlabs/LITA">[code]</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/point-supervision.png" alt="Point Supervision">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">What is Point Supervision Worth in Video Instance Segmentation?</p>
+                            <p class="pub-authors">Shuaiyi Huang, De-An Huang, Zhiding Yu, Shiyi Lan, <strong>Subhashree Radhakrishnan</strong>, Jose M Alvarez, Abhinav Shrivastava, Anima Anandkumar</p>
+                            <p class="pub-venue"><strong>CVPR 2024 Workshop</strong></p>
+                            <p class="pub-links">
+                                <a href="https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/html/Huang_What_is_Point_Supervision_Worth_in_Video_Instance_Segmentation_CVPRW_2024_paper.html">[paper]</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 2021 -->
+                    <div class="pub-item">
+                        <div class="pub-thumb">
+                            <img src="images/discobox.png" alt="DiscoBox">
+                        </div>
+                        <div class="pub-details">
+                            <p class="pub-title">DiscoBox: Weakly Supervised Instance Segmentation and Semantic Correspondence from Box Supervision</p>
+                            <p class="pub-authors">Shiyi Lan, Zhiding Yu, Christopher Choy, <strong>Subhashree Radhakrishnan</strong>, Guilin Liu, Yuke Zhu, Larry S Davis, Anima Anandkumar</p>
+                            <p class="pub-venue"><strong>ICCV 2021</strong></p>
+                            <p class="pub-links">
+                                <a href="http://openaccess.thecvf.com/content/ICCV2021/html/Lan_DiscoBox_Weakly_Supervised_Instance_Segmentation_and_Semantic_Correspondence_From_Box_ICCV_2021_paper.html">[paper]</a>
+                                <a href="https://github.com/NVlabs/DiscoBox">[code]</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Patents Tab -->
+            <div id="patents" class="tab-content">
+                <p class="patents-summary">Filed 25+ patents across multimodal learning, video understanding, and spatial AI.</p>
+                <div class="pub-list">
+
+                    <div class="patent-item">
+                        <p class="pub-title">Using Neural Networks to Perform Object Detection, Instance Segmentation, and Semantic Correspondence from Bounding Box Supervision</p>
+                        <p class="pub-authors">Zhiding Yu, Shiyi Lan, Chris Choy, <strong>Subhashree Radhakrishnan</strong>, Guilin Liu, Yuke Zhu, Anima Anandkumar</p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US20220261593A1/en">[patent]</a></p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">Determining Associations Between Objects and Persons Using Machine Learning Models</p>
+                        <p class="pub-authors">Parthasarathy Sriram, Fnu Ratnesh Kumar, Anil Ubale, Farzin Aghdasi, Yan Zhai, <strong>Subhashree Radhakrishnan</strong></p>
+                        <p class="pub-links">
+                            <a href="https://patents.google.com/patent/US11205086B2/en">[patent - US11205086B2]</a>
+                            <a href="https://patents.google.com/patent/US11741736B2/en">[US11741736B2]</a>
+                            <a href="https://patents.google.com/patent/US12087077B2/en">[US12087077B2]</a>
+                        </p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">Training Object Detection Models Using Transfer Learning</p>
+                        <p class="pub-authors">Yu Wang, Farzin Aghdasi, Parthasarathy Sriram, <strong>Subhashree Radhakrishnan</strong></p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US20230078218A1/en">[patent]</a></p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">Automatic Labeling and Segmentation Using Machine Learning Models</p>
+                        <p class="pub-authors"><strong>Subhashree Radhakrishnan</strong>, Partha Sriram, Farzin Aghdasi, Seunghwan Cha, Zhiding Yu</p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US11899749B2/en">[patent]</a></p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">End-to-End Action Recognition in Intelligent Video Analysis and Edge Computing Systems</p>
+                        <p class="pub-authors"><strong>Subhashree Radhakrishnan</strong>, Farzin Aghdasi</p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US20220327318A1/en">[patent]</a></p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">Class Agnostic Object Mask Generation</p>
+                        <p class="pub-authors">Shiyi Lan, Zhiding Yu, <strong>Subhashree Radhakrishnan</strong>, Jose Manuel Alvarez Lopez, Animashree Anandkumar</p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US20240169545A1/en">[patent]</a></p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">Language Instructed Temporal Localization in Videos</p>
+                        <p class="pub-authors">De-An Huang, Shijia Liao, <strong>Subhashree Radhakrishnan</strong>, Hongxu Yin, Pavlo Molchanov, Zhiding Yu, Jan Kautz</p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US20250191369A1/en">[patent]</a></p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">Language Instructed Temporal Localization in Video Using Image Tokens, Video Tokens, and/or Soft Cross Entropy Loss</p>
+                        <p class="pub-authors">De-An Huang, Shijia Liao, <strong>Subhashree Radhakrishnan</strong>, Zaid Pervaiz Bhat, Zhiding Yu, Parthasarathy Sriram, Jan Kautz</p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US20250349122A1/en">[patent]</a></p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">Techniques for Implementing Multimodal Large Language Models with Mixtures of Vision Encoders</p>
+                        <p class="pub-authors">Guilin Liu, Zhiding Yu, Min Shi, Fuxiao Liu, Shihao Wang, Shijia Liao, <strong>Subhashree Radhakrishnan</strong>, De-An Huang, Hongxu Yin, Karan Sapra, Bryan Catanzaro, Andrew J Tao, Jan Kautz</p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US20250384268A1/en">[patent]</a></p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">Auto-Labeling Systems and Applications for Open-Set and Out-of-Domain Segmentation</p>
+                        <p class="pub-authors"><strong>Subhashree Radhakrishnan</strong>, Ramanathan Arunachalam, Farzin Aghdasi, Zhiding Yu, Shiyi Lan</p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US20250029409A1/en">[patent]</a></p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">Object Segmentation Using Machine Learning for Autonomous Systems and Applications</p>
+                        <p class="pub-authors">Alperen Degirmenci, Jiwoong Choi, Zhiding Yu, Ke Chen, Shubhranshu Singh, Yashar Asgarieh, <strong>Subhashree Radhakrishnan</strong>, James Skinner, Jose Manuel Alvarez Lopez</p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US20240386586A1/en">[patent]</a></p>
+                    </div>
+
+                    <div class="patent-item">
+                        <p class="pub-title">Point-Level Supervision for Video Instance Segmentation</p>
+                        <p class="pub-authors">Zhiding Yu, Shuaiyi Huang, De-An Huang, Shiyi Lan, <strong>Subhashree Radhakrishnan</strong>, Jose M Alvarez Lopez, Anima Anandkumar</p>
+                        <p class="pub-links"><a href="https://patents.google.com/patent/US20240221166A1/en">[patent]</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="section">
+            <h2>Experience</h2>
+
+            <div class="exp-item">
+                <div class="exp-header">
+                    <span class="exp-role">Tech Lead, AI for Gaming</span>
+                    <span class="exp-date">Dec 2025 &ndash; Present</span>
+                </div>
+                <div class="exp-org">NVIDIA &middot; Santa Clara, CA</div>
+                <p class="exp-desc">Leading architecture exploration for Language-Action models with spatial understanding for GUI-based automated game playing. Building synthetic data generation pipelines and multi-NPC collaborative agent frameworks.</p>
+            </div>
+
+            <div class="exp-item">
+                <div class="exp-header">
+                    <span class="exp-role">Tech Lead, Metropolis Applied Research</span>
+                    <span class="exp-date">2023 &ndash; 2025</span>
+                </div>
+                <div class="exp-org">NVIDIA &middot; Santa Clara, CA</div>
+                <p class="exp-desc">Led the Metropolis Foundation Model Applied Research team. Built spatially grounded VLMs for video and 3D environments, developed Visual Agents for real-world deployment. Key projects: NVCLIP, LITA, 3D-Layout-R1, FRAG.</p>
+            </div>
+
+            <div class="exp-item">
+                <div class="exp-header">
+                    <span class="exp-role">Senior Deep Learning Engineer</span>
+                    <span class="exp-date">2018 &ndash; 2023</span>
+                </div>
+                <div class="exp-org">NVIDIA &middot; Santa Clara, CA</div>
+                <p class="exp-desc">Core developer of NVIDIA TAO Toolkit. Led end-to-end PyTorch infrastructure for detection and segmentation models. Joined as intern and advanced to Tech Lead through sustained research-to-product impact.</p>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2026 Subhashree Radhakrishnan</p>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active');
+            document.querySelector('[onclick="switchTab(\'' + tabName + '\')"]').classList.add('active');
+        }
+    </script>
+</body>
+</html>

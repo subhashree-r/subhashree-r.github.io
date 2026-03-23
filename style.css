@@ -1,0 +1,349 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    line-height: 1.7;
+    background: #fff;
+    font-size: 15px;
+}
+
+a {
+    color: #1772d0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f09228;
+}
+
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 36px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #eee;
+}
+
+.profile-info {
+    flex: 1;
+    padding-top: 16px;
+}
+
+.profile-info h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 4px;
+}
+
+.profile-info .title {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 2px;
+}
+
+.profile-info .affiliation {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 12px;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.social-links a {
+    font-size: 20px;
+    color: #555;
+    transition: color 0.2s;
+}
+
+.social-links a:hover {
+    color: #1772d0;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 36px;
+}
+
+.section h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #1772d0;
+    display: inline-block;
+}
+
+.section p {
+    margin-bottom: 12px;
+}
+
+.section-note {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px !important;
+}
+
+/* Tabs */
+.tab-container {
+    display: flex;
+    gap: 0;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #eee;
+}
+
+.tab {
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #888;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+.tab:hover {
+    color: #555;
+}
+
+.tab.active {
+    color: #1772d0;
+    border-bottom-color: #1772d0;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.patents-summary {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.patent-placeholder {
+    font-size: 14px;
+    color: #999;
+    font-style: italic;
+}
+
+.patent-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.patent-item:last-child {
+    border-bottom: none;
+}
+
+.patent-item .pub-title {
+    font-weight: 600;
+    color: #222;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.patent-item .pub-authors {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 4px;
+}
+
+.patent-item .pub-links {
+    font-size: 13px;
+}
+
+.patent-item .pub-links a {
+    margin-right: 10px;
+}
+
+/* Publications */
+.pub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pub-item {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.pub-thumb {
+    flex-shrink: 0;
+    width: 120px;
+    height: 80px;
+}
+
+.pub-thumb img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pub-thumb-placeholder {
+    width: 120px;
+    height: 80px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pub-details {
+    flex: 1;
+}
+
+.pub-title {
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 4px !important;
+    font-size: 15px;
+}
+
+.pub-authors {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 4px !important;
+}
+
+.pub-venue {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 4px !important;
+}
+
+.pub-links {
+    font-size: 13px;
+}
+
+.pub-links a {
+    margin-right: 12px;
+}
+
+.pub-badge {
+    display: inline-block;
+    font-size: 11px;
+    padding: 1px 8px;
+    border-radius: 3px;
+    background: #e8e8e8;
+    color: #555;
+    font-weight: 500;
+}
+
+.pub-badge.spotlight {
+    background: #fff3cd;
+    color: #856404;
+}
+
+/* Experience */
+.exp-item {
+    margin-bottom: 20px;
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.exp-role {
+    font-weight: 600;
+    color: #222;
+    font-size: 15px;
+}
+
+.exp-date {
+    font-size: 13px;
+    color: #888;
+    white-space: nowrap;
+}
+
+.exp-org {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.exp-desc {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .profile-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .exp-header {
+        flex-direction: column;
+    }
+
+    .pub-item {
+        flex-direction: column;
+    }
+
+    .pub-thumb {
+        width: 100%;
+        height: auto;
+    }
+
+    .pub-thumb-placeholder,
+    .pub-thumb img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3/2;
+    }
+}
